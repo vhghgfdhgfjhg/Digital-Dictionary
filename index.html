@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Dictionary</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/dictionary_4033369.png">
+</head>
+<body>
+    
+  <div class="container">
+    <h1>Dictionary App</h1>
+    <div class="search"><input type="text" placeholder="Search" id="input">
+        <img class="searchicon"  src="img/search.png">
+    </div>
+
+    <div id="main">
+        <div style="display: inline-flex;align-items:center;justify-content:space-between; gap:10px;font-size: 20px;font-weight:700;">Word:<h2 id="word"></h2></div>
+        
+        <img id="speak" src="img/volume-up_8469063.png">
+    </div>
+    <div style="display: inline-flex;align-items:center; gap:10px;font-size: 20px;font-weight:700;"  class="box">Meaning:<h2 id="meaning"></h2></div>
+    <div style="display: inline-flex;align-items:center; gap:10px;font-size: 20px;font-weight:700;" class="box">Part of Speech:<h2 id="origin"></h2></div>
+    
+    <b style="color: rgb(0, 0, 0);position: absolute;
+    top:110%;
+    left: 50%;
+    transform: translate(-50%,-50%);font-size:15px;font-family: Arial, Helvetica, sans-serif;">Note : Refresh the window to check for new word.</b>
+
+  </div>
+
+  
+</body>
+<script src="script.js"></script>
+</html>
